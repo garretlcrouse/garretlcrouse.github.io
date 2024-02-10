@@ -9,12 +9,12 @@ let toppingArray = [];
 
 // event listener
 let formButton = document.getElementById("btn");
-btn.addEventListener("click", function (event) {
+formButton.addEventListener("click", function (event) {
     event.preventDefault();
     let topping1 = document.getElementById('top1').value;
     let topping2 = document.getElementById('top2').value;
     let topping3 = document.getElementById('top3').value;
-    toppingArray += topping1 + topping2 + topping3;
+    toppingArray.push (topping1 + " ", topping2 + " ", topping3);
     calculateTotal(toppingArray);
 })
 
