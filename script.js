@@ -1,5 +1,5 @@
 // Global variables
-let crust = document.getElementById("crust").vaule;
+let crust = document.getElementById("crust").value;
 let sauce = document.getElementById("sauce").value;
 
 
@@ -36,7 +36,7 @@ function calculateTotal(toppingArray) {
     for (let i = 0; i < toppingArray.length; i++) {
         if (toppingArray[i] != "") {
             total += toppingCost;
-            toppingString += toppingArray[i] + " ";
+            toppingString += toppingArray[i];
         }
     }
 
