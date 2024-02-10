@@ -1,14 +1,14 @@
 // Global variables
-var crust = document.getElementById("crust").vaule;
-var sauce = document.getElementById("sauce").value;
+let crust = document.getElementById("crust").vaule;
+let sauce = document.getElementById("sauce").value;
 
 
 // toppings array
-var toppingArray = [];
+let toppingArray = [];
 
 
 // event listener
-var formButton = document.getElementById("btn");
+let formButton = document.getElementById("btn");
 btn.addEventListener("click", function (event) {
     event.preventDefault();
     var topping1 = document.getElementById('top1').value;
