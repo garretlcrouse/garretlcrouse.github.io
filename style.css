@@ -1,6 +1,8 @@
 body {
     background-color: #fdf0d5;
     font-family: Roboto;
+    width: 800px;
+    margin: 0 auto;
 }
 
 .title {
@@ -12,28 +14,25 @@ body {
 .createOrder {
     text-align: center;
     border: solid #003049 5px;
-    margin: 20px;
-    width: 800px;
+    color: #d62828;
+    margin-bottom: 20px;
 }
 
 .form {
     text-align: center;
     border: solid #003049 5px;
-    margin: 20px;
-    padding: 10px;
-    width: 780px;
+    color: #d62828;
+    margin-bottom: 20px;
 }
 
 #order {
     text-align: center;
     border: solid #003049 5px;
-    margin: 20px;
     padding-bottom: 10px;
-    width: 800px;
 }
 
 #crust {
-    margin-bottom: 10px;
+    margin: 10px;
 }
 
 #sauce {
@@ -41,5 +40,5 @@ body {
 }
 
 #btn {
-    margin-top: 10px;
+    margin: 10px;
 }
