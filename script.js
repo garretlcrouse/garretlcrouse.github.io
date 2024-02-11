@@ -1,7 +1,4 @@
 // Global variables
-let crust = document.getElementById("crust").value;
-let sauce = document.getElementById("sauce").value;
-
 
 // toppings array
 let toppingArray = [];
@@ -22,19 +19,21 @@ formButton.addEventListener("click", function (event) {
 
 
 
+
 function calculateTotal(toppingArray) {
     let total = 0;
     let toppingCost = 2.50;
     let baseCost = 5.50; // cost of crust and sauce
+    var crust = document.getElementById("crust").value;
+    var sauce = document.getElementById("sauce").value;
 
     // order string concatenation
-    let orderString = crust + " pizza with " + sauce;
-
+    let orderString = crust + " Pizza with " + sauce;
     let toppingString = "Toppings: ";
 
     // For Loop
     for (let i = 0; i < toppingArray.length; i++) {
-        if (toppingArray[i] != "") {
+        if (toppingArray[i] != " ") {
             total += toppingCost;
             toppingString += toppingArray[i];
         }
