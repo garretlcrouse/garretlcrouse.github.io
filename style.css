@@ -1,0 +1,45 @@
+body {
+    background-color: #fdf0d5;
+    font-family: Roboto;
+}
+
+.title {
+    text-align: center;
+    color: #d62828;
+    font-size: 3em;
+}
+
+.createOrder {
+    text-align: center;
+    border: solid #003049 5px;
+    margin: 20px;
+    width: 800px;
+}
+
+.form {
+    text-align: center;
+    border: solid #003049 5px;
+    margin: 20px;
+    padding: 10px;
+    width: 780px;
+}
+
+#order {
+    text-align: center;
+    border: solid #003049 5px;
+    margin: 20px;
+    padding-bottom: 10px;
+    width: 800px;
+}
+
+#crust {
+    margin-bottom: 10px;
+}
+
+#sauce {
+    margin-bottom: 10px;
+}
+
+#btn {
+    margin-top: 10px;
+}
