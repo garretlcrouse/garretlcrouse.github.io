@@ -11,7 +11,7 @@ formButton.addEventListener("click", function (event) {
     let topping1 = document.getElementById('top1').value;
     let topping2 = document.getElementById('top2').value;
     let topping3 = document.getElementById('top3').value;
-    toppingArray.push (topping1 + " ", topping2 + " ", topping3);
+    toppingArray.push(topping1 + " ", topping2 + " ", topping3);
     calculateTotal(toppingArray);
 })
 
