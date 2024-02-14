@@ -6,7 +6,7 @@ let toppingArray = [];
 
 // event listener
 let formButton = document.getElementById("btn");
-formButton.addEventListener("click", function (event) {
+formButton.addEventListener("click", function getInfo(event) {
     event.preventDefault();
     let topping1 = document.getElementById('top1').value;
     let topping2 = document.getElementById('top2').value;
